@@ -1,13 +1,15 @@
-(2024-06-04 15:31:12,158) INFO - Запуск додатку.
-(2024-06-04 15:31:18,650) INFO - Відкрито файл: C:/Users/PC/OneDrive/Рабочий стол/test.txt
-(2024-06-04 15:31:22,027) INFO - Виконано операцію: Transliteration
-(2024-06-04 15:31:22,355) INFO - Результат обробки тексту: Транслітерований текст:
+(2024-06-04 17:12:13,417) INFO - Запуск додатку.
+(2024-06-04 17:12:20,338) INFO - Відкрито файл: C:/Users/PC/OneDrive/Рабочий стол/test.txt
+(2024-06-04 17:12:23,342) INFO - Виконано операцію: Transliteration
+(2024-06-04 17:12:23,383) INFO - Результат обробки тексту: Транслітерований текст:
 Prekrasnyj litnij den' daruye nam nejmovirno charivnu pohodu. Sontse nizhno obijmaye zeleni dereva parku, rozsypajuchy svoye teplo ta svitlo na vsi storony. Pukhnasti khmarynky hrajut' u nebi, stvorjujuchy nepovtorni maljunky na holubomu polotni bezmezhnoho prostoru. Ljudy, jaki vyrishyly provesty tsej den' v parku, nasolodzhujut'sja kozhnoju myttju vidpochynku. Parkovi aleyi napovneni veseloshchamy ditej, shcho radisno hrajut'sja pid nahljadom svoyikh bat'kiv. Molodi pary prohuljujut'sja vzdovzh velykykh kushchiv kvitiv, nasychujuchy svoyi sertsja aromatamy litnikh kvitiv. Ljudy rozmovljajut', smijut'sja, nasolodzhujuchys' spokoyem ta harmoniyeju pryrody. Park tse mistse, de kozhen znakhodyt' svoye zadovolennja.
-(2024-06-04 15:32:27,579) INFO - Завершення роботи додатку.
-(2024-06-04 15:33:35,763) INFO - Запуск додатку.
-(2024-06-04 15:33:40,650) INFO - Відкрито файл: C:/Users/PC/OneDrive/Рабочий стол/test.txt
-(2024-06-04 15:33:42,939) INFO - Виконано операцію: WordRelativeFrequency
-(2024-06-04 15:33:42,940) INFO - Результат обробки тексту: Відносна частота вживання словоформ у тексті:
+(2024-06-04 17:12:33,229) INFO - Результат збережено у файлі: C:/Users/PC/OneDrive/Рабочий стол/result.txt
+(2024-06-04 17:15:27,832) INFO - Завершення роботи додатку.
+
+(2024-06-04 17:21:37,407) INFO - Запуск додатку.
+(2024-06-04 17:21:42,056) INFO - Відкрито файл: C:/Users/PC/OneDrive/Рабочий стол/test.txt
+(2024-06-04 17:21:43,922) INFO - Виконано операцію: WordRelativeFrequency
+(2024-06-04 17:21:43,923) INFO - Результат обробки тексту: Відносна частота вживання словоформ у тексті:
 прекрасний: 1.14%
 літній: 1.14%
 день: 2.27%
@@ -89,8 +91,8 @@ Prekrasnyj litnij den' daruye nam nejmovirno charivnu pohodu. Sontse nizhno obij
 кожен: 1.14%
 знаходить: 1.14%
 задоволення: 1.14%
-(2024-06-04 15:33:54,364) INFO - Виконано операцію: UniqueWordCounter
-(2024-06-04 15:33:54,365) INFO - Результат обробки тексту: Загальна кількість унікальних слів: 81
+(2024-06-04 17:21:45,847) INFO - Виконано операцію: UniqueWordCounter
+(2024-06-04 17:21:45,848) INFO - Результат обробки тексту: Загальна кількість унікальних слів: 81
 Список унікальних слів та їх кількості вживань в тексті:
 прекрасний: 1
 літній: 1
@@ -173,5 +175,5 @@ Prekrasnyj litnij den' daruye nam nejmovirno charivnu pohodu. Sontse nizhno obij
 кожен: 1
 знаходить: 1
 задоволення: 1
-(2024-06-04 15:34:12,703) INFO - Завершення роботи додатку.
+(2024-06-04 17:21:49,879) INFO - Завершення роботи додатку.
 

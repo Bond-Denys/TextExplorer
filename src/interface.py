@@ -37,6 +37,9 @@ class Interface:
         run_menu = RunMenu(self.__app, self.__text_editor, self.__output_panel, self.__logger)
         menu_bar.add_cascade(label="Набір операцій для аналізу", menu=run_menu.menu)
 
+        load_results_menu = LoadResultsMenu(self.__app, self.__output_panel, self.__logger)
+        menu_bar.add_cascade(label="Завантажити результати", menu=load_results_menu.menu)
+
     def run(self):
         self.__logger.info("Запуск додатку.")
         self.__app.title(self.title)
@@ -121,3 +124,23 @@ class RunMenu:
 
     def __relative_frequency_function(self):
         self.__process_text(WordRelativeFrequency())
+
+
+class LoadResultsMenu:
+    def __init__(self, parent, output_panel, logger):
+        self.menu = tk.Menu(parent, tearoff=0)
+        self.output_panel = output_panel
+        self.logger = logger
+        self.__add_command()
+
+    def __add_command(self):
+        self.menu.add_command(label="Завантажити результати", command=self.__load_results)
+
+    def __load_results(self):
+        # Збереження результату в текстовий файл через діалогове вікно
+        file_path = filedialog.asksaveasfilename(defaultextension="txt",
+                                                 filetypes=[("Text files", "*.txt"), ("All files", "*.*")])
+        if file_path:
+            with open(file_path, "w", encoding="utf-8") as file:
+                file.write(self.output_panel.get(1.0, tk.END))
+            self.logger.info(f"Результат збережено у файлі: {file_path}")
