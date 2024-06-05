@@ -177,3 +177,7 @@ Prekrasnyj litnij den' daruye nam nejmovirno charivnu pohodu. Sontse nizhno obij
 задоволення: 1
 (2024-06-04 17:21:49,879) INFO - Завершення роботи додатку.
 
+(2024-06-04 18:00:18,034) INFO - Запуск додатку.
+(2024-06-04 18:00:39,033) INFO - Відкрито файл: C:/Users/PC/OneDrive/Рабочий стол/test.txt
+(2024-06-04 18:00:58,475) INFO - Завершення роботи додатку.
+
